@@ -146,7 +146,7 @@ footer {
         <p>OR</p>
         
         <p class="text-bottom">
-          Already have an account ? <a href="login.html">Login</a>
+          Already have an account ? <a href="{{asset('login.html')}}">Login</a>
         </p>
         <P><a href="./adminauth.html">Signup or login as ADMIN</a></P>
       </div>

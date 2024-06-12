@@ -39,7 +39,7 @@ session_start()
             <a href="#faqs">FAQ's</a>
            
              
-            <button><a href="{{asset('sign_up.php   ')}}">Join Us</a></button>
+            <button><a href="{{asset('sign_up.php')}}">Join Us</a></button>
         </div>
     </nav>
     

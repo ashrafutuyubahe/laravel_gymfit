@@ -31,3 +31,5 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::get('/signup',[RegistrationController::class, 'showRegistrationForm'])->name('signup');
 Route::post('/signup', [RegistrationController::class, 'register']);
+
+
