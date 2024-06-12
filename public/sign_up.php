@@ -111,7 +111,7 @@ footer {
   </head>
 
   <body>
-    <form action="../backend/userSignup.php" method="post">
+    <form action="{{ route('signup') }}" method="post">
       <div class="container">
         <div>
           <h1 class="header">Sign up</h1>
