@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\User; // Assuming your user model is named User
+use App\Models\User; 
 
 class RegistrationController extends Controller
 {
@@ -26,7 +26,7 @@ class RegistrationController extends Controller
         $user = new User();
         $user->username = $validatedData['username'];
         $user->useremail = $validatedData['useremail'];
-        $user->userpassword = bcrypt($validatedData['userpassword']); // Hash the password
+        $user->userpassword = bcrypt($validatedData['userpassword']); 
         $user->save();
 
         

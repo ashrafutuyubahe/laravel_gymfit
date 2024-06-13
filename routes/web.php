@@ -25,11 +25,9 @@ Route::get('/', function () {
 
 // Auth::routes();
 
-
+// Home route
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-
-Route::get('/signup',[RegistrationController::class, 'showRegistrationForm'])->name('signup');
+// Registration routes
+Route::get('/signup', [RegistrationController::class, 'showRegistrationForm'])->name('signup');
 Route::post('/signup', [RegistrationController::class, 'register']);
-
-
